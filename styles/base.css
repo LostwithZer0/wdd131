@@ -6,6 +6,10 @@ body {
     color: #263238;
 }
 
+header {
+    width: 100%;
+}
+
 #course-title {
     display: block;
     text-align: center;
