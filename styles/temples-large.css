@@ -1,0 +1,24 @@
+@media screen and (min-width: 700px) {
+
+    #menu {
+        display: none;
+    }
+
+    header {
+        flex-wrap: nowrap;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+
+    nav a {
+        padding: 0.8rem 1rem;
+    }
+
+    .temple-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
