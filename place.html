@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Japan, including information about the country, its culture, and weather.">
+    <meta name="author" content="David Hostetter">
+    <title>Japan | Country Page</title>
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Japan</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source
+                    srcset="images/japan-large.webp"
+                    media="(min-width: 750px)">
+                <img
+                    src="images/japan-small.webp"
+                    alt="Mount Fuji surrounded by cherry blossoms and traditional Japanese architecture"
+                    width="600"
+                    height="800">
+            </picture>
+
+            <section class="data">
+                <h2>Data</h2>
+
+                <dl>
+                    <div>
+                        <dt>Area:</dt>
+                        <dd>377,975 km²</dd>
+                    </div>
+                    <div>
+                        <dt>Population:</dt>
+                        <dd>About 123 million</dd>
+                    </div>
+                    <div>
+                        <dt>Capital:</dt>
+                        <dd>Tokyo</dd>
+                    </div>
+                    <div>
+                        <dt>Language:</dt>
+                        <dd>Japanese</dd>
+                    </div>
+                    <div>
+                        <dt>Currency:</dt>
+                        <dd>Japanese Yen (¥)</dd>
+                    </div>
+                    <div>
+                        <dt>Time Zone:</dt>
+                        <dd>Japan Standard Time (JST)</dd>
+                    </div>
+                    <div>
+                        <dt>Calling Code:</dt>
+                        <dd>+81</dd>
+                    </div>
+                    <div>
+                        <dt>Internet TLD:</dt>
+                        <dd>.jp</dd>
+                    </div>
+                </dl>
+            </section>
+
+            <section class="weather">
+                <h2>Weather</h2>
+
+                <img
+                    class="weather-icon"
+                    src="images/weather.svg"
+                    alt="Partly cloudy weather icon"
+                    width="64"
+                    height="64">
+
+                <dl>
+                    <div>
+                        <dt>Temperature:</dt>
+                        <dd><span id="temperature">45</span> °F</dd>
+                    </div>
+                    <div>
+                        <dt>Conditions:</dt>
+                        <dd>Partly Cloudy</dd>
+                    </div>
+                    <div>
+                        <dt>Wind:</dt>
+                        <dd><span id="wind-speed">8</span> mph</dd>
+                    </div>
+                    <div>
+                        <dt>Wind Chill:</dt>
+                        <dd><span id="wind-chill"></span></dd>
+                    </div>
+                </dl>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span>
+            🌸 David Hostetter 🌸 Japan
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

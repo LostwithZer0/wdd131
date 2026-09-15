@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="weather-title">
+    <title id="weather-title">Partly cloudy</title>
+
+    <circle cx="25" cy="24" r="12" fill="#f9c74f"/>
+
+    <g stroke="#f9c74f" stroke-width="3" stroke-linecap="round">
+        <line x1="25" y1="5" x2="25" y2="10"/>
+        <line x1="25" y1="38" x2="25" y2="43"/>
+        <line x1="6" y1="24" x2="11" y2="24"/>
+        <line x1="39" y1="24" x2="44" y2="24"/>
+        <line x1="12" y1="11" x2="16" y2="15"/>
+        <line x1="34" y1="33" x2="38" y2="37"/>
+        <line x1="38" y1="11" x2="34" y2="15"/>
+    </g>
+
+    <path d="M18 49
+             C13 49 10 46 10 42
+             C10 38 13 35 17 35
+             C19 29 24 26 30 26
+             C37 26 42 31 43 37
+             C49 37 53 41 53 46
+             C53 51 49 54 44 54
+             H18
+             C14 54 11 52 11 49
+             Z"
+          fill="#f2f4f4"
+          stroke="#252525"
+          stroke-width="2"/>
+</svg>
