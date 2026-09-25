@@ -3255,7 +3255,7 @@ p {
     display: flex;
     margin-top: 2.5rem;
     gap: 1rem;
-    align-items: left;
+    align-items: center;
     justify-content: center;
 }
 
