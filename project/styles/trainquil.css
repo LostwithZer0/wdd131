@@ -3186,3 +3186,91 @@ p {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* ========================================
+   THANK YOU PAGE
+   ======================================== */
+
+.thankyou-section {
+    display: flex;
+    min-height: 70vh;
+    padding: 7rem 1.5rem;
+    align-items: center;
+    justify-content: center;
+    background: var(--warm-ivory);
+}
+
+.thankyou-card {
+    width: 100%;
+    max-width: 760px;
+    padding: clamp(3rem, 7vw, 5.5rem);
+    border: 1px solid var(--border-color);
+    border-radius: var(--large-radius);
+    background: var(--white);
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.thankyou-mark {
+    display: flex;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--light-aqua);
+    color: var(--muted-teal);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.thankyou-card h1 {
+    max-width: 600px;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+}
+
+.thankyou-lead {
+    color: var(--deep-blue-gray);
+    font-family: var(--heading-font);
+    font-size: clamp(1.3rem, 2vw, 1.55rem);
+    font-weight: 600;
+    line-height: 1.45;
+}
+
+.thankyou-card > p:not(.eyebrow) {
+    max-width: 580px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.thankyou-actions {
+    display: flex;
+    margin-top: 2.5rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+/* ---------- THANK YOU MOBILE ---------- */
+
+@media (max-width: 600px) {
+    .thankyou-section {
+        min-height: 65vh;
+        padding: 4rem 1.25rem;
+    }
+
+    .thankyou-card {
+        padding: 3rem 1.5rem;
+    }
+
+    .thankyou-actions {
+        flex-direction: column;
+    }
+
+    .thankyou-actions .button {
+        width: 100%;
+    }
+}
