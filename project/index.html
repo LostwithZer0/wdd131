@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Trainquil Effects provides professional house-call dog grooming and cooperative care in the greater Idaho Falls area."
+    >
+    <meta name="author" content="David Hostetter">
+
+    <title>Trainquil Effects | House-Call Dog Grooming</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Nunito+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles/trainquil.css">
+    <script src="scripts/trainquil.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="nav-container">
+            <a class="brand" href="index.html" aria-label="Trainquil Effects home">
+                <img
+                    src="images/trainquil-logo.webp"
+                    alt="Trainquil Effects"
+                    width="180"
+                    height="180"
+                >
+            </a>
+
+            <button
+                class="menu-button"
+                id="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-nav"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+                <a class="active" href="index.html" aria-current="page">Home</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">About</a>
+                <a class="nav-cta" href="about.html#appointment">Request Appointment</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">House-Call Dog Grooming</p>
+
+                <h1>Grooming built around your dog.</h1>
+
+                <p class="hero-text">
+                    Professional grooming and cooperative care brought into the
+                    comfort of home, with an approach centered on patience,
+                    safety, and your dog's individual needs.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="about.html#appointment">
+                        Request an Appointment
+                    </a>
+
+                    <a class="text-link" href="services.html">
+                        Explore Our Services
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="images/gabby-grooming-hero.webp"
+                    alt="Gabby professionally grooming a dog"
+                    width="850"
+                    height="1000"
+                >
+            </div>
+        </section>
+
+        <!-- INTRO -->
+        <section class="intro section">
+            <div class="section-heading centered-heading">
+                <p class="eyebrow">A Different Kind of Grooming</p>
+                <h2>Professional care without the grooming salon.</h2>
+                <p>
+                    Trainquil Effects brings professional grooming directly
+                    into your home. Instead of traveling in a grooming van,
+                    services are performed using an appropriate space and
+                    bathing area in your home.
+                </p>
+            </div>
+
+            <div class="process-grid">
+                <article class="process-card">
+                    <span class="process-number">01</span>
+                    <h3>We Come to You</h3>
+                    <p>
+                        Your dog stays in a familiar environment while
+                        professional grooming comes directly to your home.
+                    </p>
+                </article>
+
+                <article class="process-card">
+                    <span class="process-number">02</span>
+                    <h3>Individual Attention</h3>
+                    <p>
+                        Grooming is approached with your dog's comfort,
+                        behavior, and individual needs in mind.
+                    </p>
+                </article>
+
+                <article class="process-card">
+                    <span class="process-number">03</span>
+                    <h3>Cooperative Care</h3>
+                    <p>
+                        Patient handling and behavior-conscious techniques help
+                        create a safer, more comfortable grooming experience.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services-preview section">
+            <div class="section-heading split-heading">
+                <div>
+                    <p class="eyebrow">Grooming Services</p>
+                    <h2>Care for every stage between grooms.</h2>
+                </div>
+
+                <p>
+                    Services are designed around the individual dog rather than
+                    a one-size-fits-all grooming experience.
+                </p>
+            </div>
+
+            <div class="service-grid">
+                <article class="service-card">
+                    <div class="service-image">
+                        <img
+                            src="images/service-haircut.webp"
+                            alt="Freshly groomed dog after a wellness bath and haircut"
+                            width="700"
+                            height="700"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="service-content">
+                        <p class="card-label">Full Grooming</p>
+                        <h3>Wellness Bath With Haircut</h3>
+                        <p>
+                            Complete grooming care for dogs needing both their
+                            regular wellness bath and a professional haircut.
+                        </p>
+                        <a class="text-link" href="services.html#haircut">
+                            Learn More
+                            <span aria-hidden="true">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-image">
+                        <img
+                            src="images/service-wellness-bath.webp"
+                            alt="Freshly groomed dog after a wellness bath"
+                            width="700"
+                            height="700"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="service-content">
+                        <p class="card-label">Routine Care</p>
+                        <h3>Wellness Bath</h3>
+                        <p>
+                            Professional bathing and grooming care for dogs
+                            whose coats do not require a full haircut.
+                        </p>
+                        <a class="text-link" href="services.html#wellness-bath">
+                            Learn More
+                            <span aria-hidden="true">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-image">
+                        <img
+                            src="images/service-maintenance.webp"
+                            alt="Well-groomed dog receiving regular maintenance care"
+                            width="700"
+                            height="700"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="service-content">
+                        <p class="card-label">Between Appointments</p>
+                        <h3>Maintenance Package</h3>
+                        <p>
+                            Maintenance care helps keep your dog comfortable
+                            and their coat manageable between complete grooms.
+                        </p>
+                        <a class="text-link" href="services.html#maintenance">
+                            Learn More
+                            <span aria-hidden="true">→</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="section-action">
+                <a class="button button-secondary" href="services.html">
+                    View All Services
+                </a>
+            </div>
+        </section>
+
+        <!-- TRAINQUIL DIFFERENCE -->
+        <section class="difference section">
+            <div class="difference-image">
+                <img
+                    src="images/gabby-dog-floor.webp"
+                    alt="Gabby calmly spending time on the floor with a dog"
+                    width="900"
+                    height="900"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="difference-content">
+                <p class="eyebrow">The Trainquil Difference</p>
+                <h2>The groom matters. So does how your dog experiences it.</h2>
+
+                <p>
+                    Grooming is more than a finished haircut. Trainquil Effects
+                    combines professional grooming education with an
+                    understanding of canine behavior to create an experience
+                    focused on both physical care and emotional comfort.
+                </p>
+
+                <ul class="feature-list">
+                    <li>
+                        <span aria-hidden="true">✓</span>
+                        One-on-one house-call grooming
+                    </li>
+                    <li>
+                        <span aria-hidden="true">✓</span>
+                        Cooperative and behavior-conscious handling
+                    </li>
+                    <li>
+                        <span aria-hidden="true">✓</span>
+                        Care tailored to the individual dog
+                    </li>
+                    <li>
+                        <span aria-hidden="true">✓</span>
+                        Professional grooming and behavior education
+                    </li>
+                </ul>
+
+                <a class="text-link" href="about.html">
+                    Discover Our Approach
+                    <span aria-hidden="true">→</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- MEET YOUR GROOMER -->
+        <section class="groomer section">
+            <div class="groomer-content">
+                <p class="eyebrow">Meet Your Groomer</p>
+                <h2>Professional knowledge. Genuine care.</h2>
+
+                <p>
+                    Gabrielle brings together professional grooming education,
+                    continuing education in canine behavior, and a genuine
+                    commitment to helping dogs feel safer throughout the
+                    grooming process.
+                </p>
+
+                <div class="credential-list">
+                    <div>
+                        <strong>Master Groomer</strong>
+                        <span>Behavior Specialist</span>
+                    </div>
+
+                    <div>
+                        <strong>Fear Free</strong>
+                        <span>Education & Training</span>
+                    </div>
+
+                    <div>
+                        <strong>Cooperative Care</strong>
+                        <span>Dog-Centered Approach</span>
+                    </div>
+                </div>
+
+                <a class="button button-secondary" href="about.html">
+                    Meet Gabrielle
+                </a>
+            </div>
+
+            <div class="groomer-image">
+                <img
+                    src="images/gabby-about-me.webp"
+                    alt="Gabrielle holding a freshly groomed dog"
+                    width="850"
+                    height="1000"
+                    loading="lazy"
+                >
+            </div>
+        </section>
+
+        <!-- CREDENTIALS -->
+        <section class="credentials-preview">
+            <div class="credentials-inner">
+                <div class="credentials-copy">
+                    <p class="eyebrow">Education Matters</p>
+                    <h2>Care backed by continued learning.</h2>
+                    <p>
+                        Professional grooming, behavior education, Fear Free
+                        training, pet first aid, and continuing education help
+                        support a thoughtful approach to every appointment.
+                    </p>
+
+                    <a class="text-link light-link" href="about.html#credentials">
+                        View Qualifications
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+
+                <div class="credentials-image">
+                    <img
+                        src="images/certification-highlight.webp"
+                        alt="Trainquil Effects professional grooming and pet care credentials"
+                        width="900"
+                        height="600"
+                        loading="lazy"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO PREVIEW -->
+        <section class="portfolio-preview section">
+            <div class="section-heading centered-heading">
+                <p class="eyebrow">Recent Grooms</p>
+                <h2>See the work for yourself.</h2>
+                <p>
+                    Every dog is different. Explore real Trainquil Effects
+                    clients, coat types, breeds, and finished grooms.
+                </p>
+            </div>
+
+            <div class="portfolio-preview-grid">
+                <figure>
+                    <img
+                        src="images/portfolio-charly.webp"
+                        alt="Charly the Goldendoodle after grooming"
+                        width="700"
+                        height="700"
+                        loading="lazy"
+                    >
+                    <figcaption>
+                        <strong>Charly</strong>
+                        <span>Goldendoodle</span>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="images/portfolio-jojo.webp"
+                        alt="Jojo the Mini Goldendoodle after grooming"
+                        width="700"
+                        height="700"
+                        loading="lazy"
+                    >
+                    <figcaption>
+                        <strong>Jojo</strong>
+                        <span>Mini Goldendoodle</span>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="images/portfolio-thor.webp"
+                        alt="Dolly the Maltese after grooming"
+                        width="700"
+                        height="700"
+                        loading="lazy"
+                    >
+                    <figcaption>
+                        <strong>Thor</strong>
+                        <span>Yorkie</span>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="images/portfolio-bumi.webp"
+                        alt="Bumi the Chorkie after grooming"
+                        width="700"
+                        height="700"
+                        loading="lazy"
+                    >
+                    <figcaption>
+                        <strong>Bumi</strong>
+                        <span>Chorkie</span>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="section-action">
+                <a class="button button-primary" href="portfolio.html">
+                    Explore the Full Portfolio
+                </a>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section class="testimonials section">
+            <div class="section-heading centered-heading">
+                <p class="eyebrow">Client Experiences</p>
+                <h2>Trusted with the dogs they love.</h2>
+            </div>
+
+            <div class="testimonial-grid">
+                <article class="testimonial-card">
+                    <div class="quote-mark" aria-hidden="true">“</div>
+                    <p>
+                        She is amazing! She was very patient with our nervous
+                        pup and took the time to help her feel comfortable.
+                    </p>
+                    <p class="testimonial-name">Kathryn Hilker</p>
+                </article>
+
+                <article class="testimonial-card featured-testimonial">
+                    <div class="quote-mark" aria-hidden="true">“</div>
+                    <p>
+                        Gabby is very knowledgeable and professional. She made
+                        sure our dog was comfortable and reassured throughout
+                        the grooming process.
+                    </p>
+                    <p class="testimonial-name">Jessica Crane</p>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="quote-mark" aria-hidden="true">“</div>
+                    <p>
+                        We appreciate the patience, care, and knowledge she
+                        brings to grooming. It makes such a difference for our
+                        dog.
+                    </p>
+                    <p class="testimonial-name">Jessica Tyger</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq section">
+            <div class="faq-intro">
+                <p class="eyebrow">Frequently Asked Questions</p>
+                <h2>House-call grooming might be new to you.</h2>
+                <p>
+                    Here are a few of the questions clients commonly have about
+                    bringing professional grooming into their home.
+                </p>
+
+                <a class="text-link" href="services.html">
+                    Learn More About House-Call Grooming
+                    <span aria-hidden="true">→</span>
+                </a>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button
+                        class="faq-question"
+                        type="button"
+                        aria-expanded="false"
+                    >
+                        <span>Do you groom from a mobile grooming van?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            No. Trainquil Effects is a house-call grooming
+                            service. Grooming takes place at your home rather
+                            than inside a grooming van.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button
+                        class="faq-question"
+                        type="button"
+                        aria-expanded="false"
+                    >
+                        <span>Where is my dog bathed?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            Trainquil Effects uses an appropriate bathing area
+                            in your home, such as a shower or sink, depending on
+                            your dog and the available space.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button
+                        class="faq-question"
+                        type="button"
+                        aria-expanded="false"
+                    >
+                        <span>What if my dog is nervous about grooming?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            Cooperative care and behavior-conscious handling
+                            are central to the Trainquil Effects approach.
+                            Grooming is adapted to the individual dog's needs
+                            with an emphasis on comfort and safety.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button
+                        class="faq-question"
+                        type="button"
+                        aria-expanded="false"
+                    >
+                        <span>How much will my dog's groom cost?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            Pricing can vary based on factors including breed,
+                            coat type and condition, and the amount of time
+                            since your dog's previous groom. Contact Trainquil
+                            Effects for information specific to your dog.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FINAL CTA -->
+        <section class="appointment-cta">
+            <div>
+                <p class="eyebrow">A Calmer Grooming Experience</p>
+                <h2>Ready to talk about your dog?</h2>
+                <p>
+                    Tell us a little about your dog and their grooming needs to
+                    get started with Trainquil Effects.
+                </p>
+            </div>
+
+            <a class="button button-light" href="about.html#appointment">
+                Request an Appointment
+            </a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <img
+                    src="images/trainquil-logo.webp"
+                    alt="Trainquil Effects"
+                    width="150"
+                    height="150"
+                    loading="lazy"
+                >
+                <p>
+                    Professional house-call dog grooming and cooperative care
+                    centered around the individual dog.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h2>Explore</h2>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">About</a>
+            </div>
+
+            <div class="footer-links">
+                <h2>Get Started</h2>
+                <a href="about.html#appointment">Request Appointment</a>
+                <a href="services.html">How House-Call Grooming Works</a>
+                <a href="about.html#credentials">Qualifications</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                &copy; <span id="current-year"></span> Trainquil Effects
+            </p>
+
+            <p>Website by David Hostetter</p>
+
+            <p id="last-modified"></p>
+        </div>
+    </footer>
+</body>
+</html>
