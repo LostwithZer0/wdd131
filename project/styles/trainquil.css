@@ -352,6 +352,7 @@ p {
 
 .hero {
     display: grid;
+    width: 100%;
     max-width: 1400px;
     min-height: 720px;
     margin: 0 auto;
@@ -361,11 +362,17 @@ p {
 
 .hero-content {
     display: flex;
-    max-width: 650px;
-    padding: 6.5rem 4rem 6.5rem max(1.5rem, calc((100vw - 1200px) / 2));
+    width: 100%;
+    max-width: none;
+    padding: 6.5rem 4rem;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+
+.hero-content > * {
+    width: 100%;
+    max-width: 560px;
 }
 
 .hero h1 {
@@ -373,7 +380,6 @@ p {
 }
 
 .hero-text {
-    max-width: 560px;
     margin-bottom: 2rem;
     font-size: 1.12rem;
 }
@@ -387,6 +393,7 @@ p {
 
 .hero-image {
     position: relative;
+    min-width: 0;
     min-height: 720px;
     overflow: hidden;
 }
