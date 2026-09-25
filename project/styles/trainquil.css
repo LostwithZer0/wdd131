@@ -3193,8 +3193,9 @@ p {
 
 .thankyou-section {
     display: flex;
-    min-height: 70vh;
-    padding: 7rem 1.5rem;
+    width: 100%;
+    min-height: calc(100vh - 92px);
+    padding: 5rem 1.5rem;
     align-items: center;
     justify-content: center;
     background: var(--warm-ivory);
@@ -3203,7 +3204,8 @@ p {
 .thankyou-card {
     width: 100%;
     max-width: 760px;
-    padding: clamp(3rem, 7vw, 5.5rem);
+    margin: 0 auto;
+    padding: clamp(3rem, 6vw, 5rem);
     border: 1px solid var(--border-color);
     border-radius: var(--large-radius);
     background: var(--white);
@@ -3215,7 +3217,7 @@ p {
     display: flex;
     width: 72px;
     height: 72px;
-    margin: 0 auto 2rem;
+    margin: 0 auto 1.75rem;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
@@ -3225,14 +3227,18 @@ p {
     font-weight: 700;
 }
 
+.thankyou-card .eyebrow {
+    margin-bottom: 0.75rem;
+}
+
 .thankyou-card h1 {
-    max-width: 600px;
-    margin-right: auto;
-    margin-bottom: 1.5rem;
-    margin-left: auto;
+    max-width: 620px;
+    margin: 0 auto 1.5rem;
 }
 
 .thankyou-lead {
+    max-width: 580px;
+    margin: 0 auto 1rem;
     color: var(--deep-blue-gray);
     font-family: var(--heading-font);
     font-size: clamp(1.3rem, 2vw, 1.55rem);
@@ -3240,16 +3246,16 @@ p {
     line-height: 1.45;
 }
 
-.thankyou-card > p:not(.eyebrow) {
+.thankyou-card > p:not(.eyebrow):not(.thankyou-lead) {
     max-width: 580px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 .thankyou-actions {
     display: flex;
     margin-top: 2.5rem;
     gap: 1rem;
+    align-items: center;
     justify-content: center;
 }
 
@@ -3258,12 +3264,19 @@ p {
 
 @media (max-width: 600px) {
     .thankyou-section {
-        min-height: 65vh;
-        padding: 4rem 1.25rem;
+        min-height: auto;
+        padding: 3rem 1.25rem;
     }
 
     .thankyou-card {
-        padding: 3rem 1.5rem;
+        padding: 2.75rem 1.5rem;
+    }
+
+    .thankyou-mark {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 1.5rem;
+        font-size: 1.75rem;
     }
 
     .thankyou-actions {
